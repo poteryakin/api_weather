@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+:root {
+    --bg: #1a1f25;
+    --color_text: #e6b333;
+    --bg_button: #e6b333;
+    --color_border: #e6b333;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--bg);
+    font-family: "Roboto";
+}
+
+#button_sent {
+    background-color: var(--bg_button);
+    color: var(--bg);
+    width: 5%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto";
+    height: 1.7em;
+}
+
+#city {
+    background-color: var(--bg);
+    color: var(--color_text);
+    border-radius: 5px;
+    border: 1px solid var(--color_border);
+    text-align: center;
+    outline: none;
+    height: 1.7em;
+}
+
+#input_form label {
+    color: var(--color_text);
+}
+
+header h1 {
+    color: var(--color_text);
+    text-align: center;
+}
+
+#input_form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+body h3 {
+    color: var(--color_text);
+    text-align: center;
+}
